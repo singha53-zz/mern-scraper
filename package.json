@@ -1,0 +1,15 @@
+{
+  "name": "mern-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/singha53/mern-scraper.git",
+  "author": "Amrit Singh <Amrit.Singh@hli.ubc.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "password-generator": "^2.2.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
