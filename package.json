@@ -13,10 +13,9 @@
     "start": "node index.js",
     "heroku-postbuild": "cd client && yarn && yarn run build",
     "lint": "eslint **/*.js --quiet",
-    "test": "npm run lint"
+    "test": "jest"
   },
   "devDependencies": {
-    "eslint": "^5.8.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
