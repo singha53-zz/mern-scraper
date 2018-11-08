@@ -12,7 +12,7 @@
   "scripts": {
     "start": "node index.js",
     "heroku-postbuild": "cd client && yarn && yarn run build",
-    "lint": "eslint \"**/*.js\"",
+    "lint": "eslint \"**/*.js\" --fix",
     "test": "yarn run lint && NODE_ENV=test mocha -u tdd --reporter spec --exit"
   },
   "devDependencies": {
