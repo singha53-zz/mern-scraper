@@ -1,15 +1,24 @@
-module.exports = {
-<<<<<<< HEAD
-    "extends": [ "airbnb", "plugin:react/recommended" ]
-=======
-    "extends": [ "airbnb", "plugin:react/recommended" ],
-    "rules": {
-        'jsx-a11y/label-has-associated-control': [
-      2,
-      {
-        labelComponents: ['label'],
-      },
-    ],
-    }
->>>>>>> 2188ff4e6b99e8ab3dc440e745e7faa564757231
-};
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "ecmaFeatures": {
+    "arrowFunctions": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "no-use-before-define": [0],
+    "react/jsx-filename-extension": [0],
+    "jsx-a11y/anchor-is-valid": [0],
+    "no-confusing-arrow": [0],
+    "no-underscore-dangle": [0],
+    "import/no-extraneous-dependencies": [0]
+  }
+}
